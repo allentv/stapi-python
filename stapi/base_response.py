@@ -1,192 +1,195 @@
-class AnimalBaseResponse:
-        def __init__(self):
-            pass
+class BaseResponse:
+    def __init__(self):
+        pass
 
-class AstronomicalObjectBaseResponse:
-        def __init__(self):
-            pass
 
-class BookBaseResponse:
-        def __init__(self):
-            pass
+class AnimalBaseResponse(BaseResponse):
+    pass
 
-class BookCollectionBaseResponse:
-        def __init__(self):
-            pass
 
-class BookSeriesBaseResponse:
-        def __init__(self):
-            pass
+class AstronomicalObjectBaseResponse(BaseResponse):
+    pass
 
-class CharacterBaseResponse:
-        def __init__(self):
-            pass
 
-class ComicCollectionBaseResponse:
-        def __init__(self):
-            pass
+class BookBaseResponse(BaseResponse):
+    pass
 
-class ComicSeriesBaseResponse:
-        def __init__(self):
-            pass
 
-class ComicStripBaseResponse:
-        def __init__(self):
-            pass
+class BookCollectionBaseResponse(BaseResponse):
+    pass
 
-class ComicsBaseResponse:
-        def __init__(self):
-            pass
 
-class CommonBaseResponse:
-        def __init__(self):
-            pass
+class BookSeriesBaseResponse(BaseResponse):
+    pass
 
-class CompanyBaseResponse:
-        def __init__(self):
-            pass
 
-class ConflictBaseResponse:
-        def __init__(self):
-            pass
+class CharacterBaseResponse(BaseResponse):
+    pass
 
-class ContentLanguageBaseResponse:
-        def __init__(self):
-            pass
 
-class ContentRatingBaseResponse:
-        def __init__(self):
-            pass
+class ComicCollectionBaseResponse(BaseResponse):
+    pass
 
-class CountryBaseResponse:
-        def __init__(self):
-            pass
 
-class ElementBaseResponse:
-        def __init__(self):
-            pass
+class ComicSeriesBaseResponse(BaseResponse):
+    pass
 
-class EpisodeBaseResponse:
-        def __init__(self):
-            pass
 
-class FoodBaseResponse:
-        def __init__(self):
-            pass
+class ComicStripBaseResponse(BaseResponse):
+    pass
 
-class GenreBaseResponse:
-        def __init__(self):
-            pass
 
-class LiteratureBaseResponse:
-        def __init__(self):
-            pass
+class ComicsBaseResponse(BaseResponse):
+    pass
 
-class LocationBaseResponse:
-        def __init__(self):
-            pass
 
-class MagazineBaseResponse:
-        def __init__(self):
-            pass
+class CommonBaseResponse(BaseResponse):
+    pass
 
-class MagazineSeriesBaseResponse:
-        def __init__(self):
-            pass
 
-class MaterialBaseResponse:
-        def __init__(self):
-            pass
+class CompanyBaseResponse(BaseResponse):
+    pass
 
-class MedicalConditionBaseResponse:
-        def __init__(self):
-            pass
 
-class MovieBaseResponse:
-        def __init__(self):
-            pass
+class ConflictBaseResponse(BaseResponse):
+    pass
 
-class OccupationBaseResponse:
-        def __init__(self):
-            pass
 
-class OrganizationBaseResponse:
-        def __init__(self):
-            pass
+class ContentLanguageBaseResponse(BaseResponse):
+    pass
 
-class PerformerBaseResponse:
-        def __init__(self):
-            pass
 
-class PlatformBaseResponse:
-        def __init__(self):
-            pass
+class ContentRatingBaseResponse(BaseResponse):
+    pass
 
-class ReferenceBaseResponse:
-        def __init__(self):
-            pass
 
-class SeasonBaseResponse:
-        def __init__(self):
-            pass
+class CountryBaseResponse(BaseResponse):
+    pass
 
-class SeriesBaseResponse:
-        def __init__(self):
-            pass
 
-class SoundtrackBaseResponse:
-        def __init__(self):
-            pass
+class ElementBaseResponse(BaseResponse):
+    pass
 
-class SpacecraftBaseResponse:
-        def __init__(self):
-            pass
 
-class SpacecraftClassBaseResponse:
-        def __init__(self):
-            pass
+class EpisodeBaseResponse(BaseResponse):
+    pass
 
-class SpacecraftTypeBaseResponse:
-        def __init__(self):
-            pass
 
-class SpeciesBaseResponse:
-        def __init__(self):
-            pass
+class FoodBaseResponse(BaseResponse):
+    pass
 
-class StaffBaseResponse:
-        def __init__(self):
-            pass
 
-class TechnologyBaseResponse:
-        def __init__(self):
-            pass
+class GenreBaseResponse(BaseResponse):
+    pass
 
-class TitleBaseResponse:
-        def __init__(self):
-            pass
 
-class TradingCardBaseResponse:
-        def __init__(self):
-            pass
+class LiteratureBaseResponse(BaseResponse):
+    pass
 
-class TradingCardDeckBaseResponse:
-        def __init__(self):
-            pass
 
-class TradingCardSetBaseResponse:
-        def __init__(self):
-            pass
+class LocationBaseResponse(BaseResponse):
+    pass
 
-class VideoGameBaseResponse:
-        def __init__(self):
-            pass
 
-class VideoReleaseBaseResponse:
-        def __init__(self):
-            pass
+class MagazineBaseResponse(BaseResponse):
+    pass
 
-class WeaponBaseResponse:
-        def __init__(self):
-            pass
 
+class MagazineSeriesBaseResponse(BaseResponse):
+    pass
+
+
+class MaterialBaseResponse(BaseResponse):
+    pass
+
+
+class MedicalConditionBaseResponse(BaseResponse):
+    pass
+
+
+class MovieBaseResponse(BaseResponse):
+    pass
+
+
+class OccupationBaseResponse(BaseResponse):
+    pass
+
+
+class OrganizationBaseResponse(BaseResponse):
+    pass
+
+
+class PerformerBaseResponse(BaseResponse):
+    pass
+
+
+class PlatformBaseResponse(BaseResponse):
+    pass
+
+
+class ReferenceBaseResponse(BaseResponse):
+    pass
+
+
+class SeasonBaseResponse(BaseResponse):
+    pass
+
+
+class SeriesBaseResponse(BaseResponse):
+    pass
+
+
+class SoundtrackBaseResponse(BaseResponse):
+    pass
+
+
+class SpacecraftBaseResponse(BaseResponse):
+    pass
+
+
+class SpacecraftClassBaseResponse(BaseResponse):
+    pass
+
+
+class SpacecraftTypeBaseResponse(BaseResponse):
+    pass
+
+
+class SpeciesBaseResponse(BaseResponse):
+    pass
+
+
+class StaffBaseResponse(BaseResponse):
+    pass
+
+
+class TechnologyBaseResponse(BaseResponse):
+    pass
+
+
+class TitleBaseResponse(BaseResponse):
+    pass
+
+
+class TradingCardBaseResponse(BaseResponse):
+    pass
+
+
+class TradingCardDeckBaseResponse(BaseResponse):
+    pass
+
+
+class TradingCardSetBaseResponse(BaseResponse):
+    pass
+
+
+class VideoGameBaseResponse(BaseResponse):
+    pass
+
+
+class VideoReleaseBaseResponse(BaseResponse):
+    pass
+
+
+class WeaponBaseResponse(BaseResponse):
+    pass

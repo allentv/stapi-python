@@ -1,14 +1,14 @@
 from .main import *
 
+
 class RestClient:
-    
     def __init__(self, url="http://stapi.co", apiKey=""):
         self.DEFAULT_URL = "http://stapi.co"
         self.DEFAULT_API_KEY = ""
 
         self.url = url
         self.apiKey = apiKey
-        
+
         self.animal = Animal(url, apiKey)
         self.astronomicalObject = AstronomicalObject(url, apiKey)
         self.book = Book(url, apiKey)
@@ -49,15 +49,6 @@ class RestClient:
         self.videoGame = VideoGame(url, apiKey)
         self.videoRelease = VideoRelease(url, apiKey)
         self.weapon = Weapon(url, apiKey)
-
-
-
-
-
-
-
-
-
 
 
 # entity_types = ['food', 'material', 'conflict', 'weapon', 'video_release',
